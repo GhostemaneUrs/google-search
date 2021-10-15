@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -58,8 +57,32 @@ a {
   text-align: center;
 }
 
-.mt-150 {
-  margin-top: 150px;
+.mt-180 {
+  margin-top: 180px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pr-12 {
+  padding-right: 12px;
+}
+
+.fz-13 {
+  font-size: 13px;
 }
 
 .flex-column {
@@ -116,6 +139,7 @@ a {
 .menu-icon {
   width: 16px;
   height: 16px;
+  opacity: 0.6;
   background-image: url(../img/menu-icon.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -123,4 +147,38 @@ a {
 }
 
 .contenedor-buttons {
+  width: 530px;
+  margin: 0 auto;
+}
+
+.buttons {
+  height: 36px;
+  color: #3c4043;
+  cursor: pointer;
+  padding: 0 15px;
+  font-size: 14px;
+  margin-right: 15px;
+  border-radius: 4px;
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  color: #202124;
+  border: 1px solid #dadce0;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+}
+
+.profile-image {
+  border: 0;
+  margin: 0px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/fotoPerfil.jfif);
 }
