@@ -30,9 +30,12 @@ a {
 }
 
 .container-logo {
-  width: 530px;
+  width: 300px;
   margin: 0 auto;
   margin-bottom: 35px;
+}
+
+.contenedor-input {
 }
 
 .d-flex {
