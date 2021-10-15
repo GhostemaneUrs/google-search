@@ -14,8 +14,22 @@ a {
   height: 60px;
 }
 
+.contenedor {
+  display: flex;
+  flex-direction: row;
+}
+
 .contenedor-section {
   margin-top: 150px;
+}
+
+.contenedor-footer {
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .container-logo {
@@ -43,6 +57,10 @@ a {
 
 .justify-content-end {
   justify-content: flex-end;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
 }
 
 .justify-content-center {
@@ -181,4 +199,33 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../img/fotoPerfil.jfif);
+}
+
+.contenedor-footer {
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+.contenedor-footer ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+}
+
+.footer-left {
+  justify-self: left;
+}
+
+.footer-right {
+  justify-self: right;
+}
+
+.contenedor-footer ul li a {
+  margin: 10px;
+  color: #5f635f;
 }
