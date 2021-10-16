@@ -11,4 +11,3 @@ Desarrollo de un clon de google con las tecnologias:
 -  Instalar la extension de Visual Code llamada Live Server.
 -  En caso no querer instalar Live Server, puede instalar Xaamp o WampServer para correr el proyecto
 
-**Free Software, Hell Yeah!**
